@@ -11,9 +11,7 @@ module Uploads
     finalize_plugins!
 
     def generate_location(_io : IO | UploadedFile, metadata, **options)
-      identifier = "#{metadata["identifier"]}#{File.extname(metadata["filename"]?.to_s)}".downcase
-      partitioned_path = (("%08s" % identifier).scan(/..../)[0..4].map(&.[0]?.to_s) + [identifier]).join("/")
-      File.join(partitioned_path.gsub(/\..*$/, ""), identifier)
+      "/tmp/example"
     end
   end
 end
