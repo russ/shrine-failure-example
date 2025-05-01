@@ -1,4 +1,4 @@
-# Minimal example of getting ana error
+# Minimal example of getting an error
 
 ```
 ❯ crystal example.cr
