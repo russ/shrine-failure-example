@@ -1,0 +1,22 @@
+version: 2.0
+shards:
+  awscr-s3:
+    git: https://github.com/taylorfinnell/awscr-s3.git
+    version: 0.8.3
+
+  awscr-signer:
+    git: https://github.com/taylorfinnell/awscr-signer.git
+    version: 0.8.2
+
+  content_disposition:
+    git: https://github.com/jetrockets/content_disposition.cr.git
+    version: 1.2.0
+
+  habitat:
+    git: https://github.com/luckyframework/habitat.git
+    version: 0.4.9
+
+  shrine:
+    git: https://github.com/jetrockets/shrine.cr.git
+    version: 0.6.5
+

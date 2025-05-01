@@ -1,0 +1,10 @@
+---
+name: example
+version: 0.1.0
+
+crystal: ">= 1.16.2"
+
+dependencies:
+  shrine:
+    github: jetrockets/shrine.cr
+    version: ~> 0.6.5

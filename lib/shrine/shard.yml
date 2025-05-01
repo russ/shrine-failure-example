@@ -1,0 +1,34 @@
+name: shrine
+version: 0.6.5
+description: |
+  File Attachment toolkit for Crystal applications
+
+authors:
+  - Igor Alexandrov <igor.alexandrov@gmail.com>
+  - Mick Wout <wout@mick-wout.com>
+
+crystal: ">= 1.0.0, < 2.0.0"
+
+license: MIT
+
+dependencies:
+  awscr-s3:
+    github: taylorfinnell/awscr-s3
+    version: ~> 0.8.2
+  content_disposition:
+    github: jetrockets/content_disposition.cr
+    version: ~> 1.2.0
+  habitat:
+    github: luckyframework/habitat
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+  fastimage:
+    github: jetrockets/fastimage.cr
+    version: ~> 1.2.0
+  spectator:
+    gitlab: arctic-fox/spectator
+  webmock:
+    github: manastech/webmock.cr
+    branch: master
